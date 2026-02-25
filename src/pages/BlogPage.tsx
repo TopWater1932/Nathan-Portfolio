@@ -1,3 +1,5 @@
+import { blogPosts } from '../data/blogPosts'
+import BlogCard from '../components/BlogCard'
 import './BlogPage.css'
 
 function BlogPage() {
@@ -13,7 +15,11 @@ function BlogPage() {
       </section>
 
       <div className="blog-content">
-        {/* Blog posts will go here */}
+        <div className="blog-grid">
+          {blogPosts.map((post) => (
+            <BlogCard key={post.id} post={post} />
+          ))}
+        </div>
       </div>
     </div>
   )

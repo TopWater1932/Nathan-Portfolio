@@ -1,0 +1,114 @@
+.article-page {
+  padding: 56px 0 100px;
+}
+
+.article-page .container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--side-padding);
+}
+
+.article-not-found .container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 80px var(--side-padding);
+}
+
+.article-back-link {
+  display: inline-block;
+  font-size: 14px;
+  color: var(--color-accent);
+  margin-bottom: 40px;
+  transition: opacity 0.2s ease;
+}
+
+.article-back-link:hover {
+  opacity: 0.75;
+}
+
+.article__header {
+  margin-bottom: 40px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.article__title {
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  color: var(--color-text);
+  margin-bottom: 16px;
+}
+
+.article__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.article__meta-divider {
+  opacity: 0.5;
+}
+
+.article__body {
+  font-size: clamp(15px, 1.6vw, 17px);
+  color: var(--color-text);
+  line-height: 1.75;
+  max-width: 680px;
+}
+
+.article__body p {
+  margin-bottom: 24px;
+}
+
+.article__body p:last-child {
+  margin-bottom: 0;
+}
+
+.article__body h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 40px 0 16px;
+  color: var(--color-text);
+}
+
+.article__body h3 {
+  font-size: 1.15em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 32px 0 12px;
+  color: var(--color-text);
+}
+
+.article__body code {
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  padding: 2px 6px;
+}
+
+.article__body ul,
+.article__body ol {
+  padding-left: 1.5em;
+  margin-bottom: 24px;
+}
+
+.article__body li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  .article-page {
+    padding: 40px 0 80px;
+  }
+
+  .article-back-link {
+    margin-bottom: 28px;
+  }
+}

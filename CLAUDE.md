@@ -85,3 +85,4 @@ No test runner is configured.
 - The body should start with the title, along with the post date and author.
 - Then it should have a section for the blog content, initially with placeholder text.
 - I should be implemented as a reusable React component that is rendered with different content.
+- At the bottom of the page, it should have a button to navigate back to the Blog Page Content.
