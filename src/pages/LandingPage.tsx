@@ -10,16 +10,16 @@ function LandingPage() {
         <div className="container">
           <h1 className="hero__title">Hi, I'm Nathan Coelho.</h1>
           <p className="hero__subtitle">
-            I'm an associate software developer with a passion for building clean, elegant software.
-            I enjoy turning complex problems into simple, intuitive experiences.
+            I'm an associate software developer with 5 years of experience in civil engineering and project management.
+            I enjoy building clean software solutions that meet real business and user needs.
           </p>
           <div className="contact-row">
-            <a href="mailto:your@email.com" className="contact-item">
+            <a href="mailto:njcoelho97@gmail.com" className="contact-item">
               <EmailIcon size={15} />
-              <span>your@email.com</span>
+              <span>njcoelho97@gmail.com</span>
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/njcoelho/"
               className="contact-item"
               target="_blank"
               rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function LandingPage() {
               <span>LinkedIn</span>
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/TopWater1932"
               className="contact-item"
               target="_blank"
               rel="noopener noreferrer"

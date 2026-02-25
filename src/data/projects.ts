@@ -1,42 +1,45 @@
+import catanOnlineImg from '../assets/CatanOnline.png'
+
 export interface Project {
   id: number
   name: string
   description: string
   tags: string[]
   datePosted: string
-  imagePlaceholderGradient: string
+  image?: string
+  imagePlaceholderGradient?: string
   link: string
 }
 
 export const projects: Project[] = [
   {
     id: 1,
-    name: 'Project Name',
+    name: 'Catan Online',
     description:
-      'A brief description of what this project does and the problem it solves. Replace with your actual project details and highlight what makes it interesting.',
-    tags: ['React', 'TypeScript', 'REST API'],
-    datePosted: 'January 2025',
-    imagePlaceholderGradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-    link: '#',
+      'Catan Online is a multiplayer full stack web application for playing the timeless classic board game Settlers of Catan by Klaus Teuber.',
+    tags: ['React', 'TypeScript', 'Python FastAPI', 'WebSocket'],
+    datePosted: 'January 2026',
+    image: catanOnlineImg,
+    link: 'https://catan-frontend-deploy.onrender.com/',
   },
   {
     id: 2,
-    name: 'Another Project',
+    name: 'Doc Lures Webscraper',
     description:
-      'Describe your second project here. What technologies did you use? What was the outcome? What did you learn from building it?',
-    tags: ['Node.js', 'Database', 'Vibe-coded'],
-    datePosted: 'March 2025',
-    imagePlaceholderGradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-    link: '#',
+    'Identified two new sandflat fishing strategies by using Selenium to scrape 650 publicly available lure fishing podcast episode summaries, and an LLM to identify common themes across presenter advice.',
+    tags: ['Python', 'Selenium', 'Pandas'],
+    datePosted: 'June 2025',
+    imagePlaceholderGradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+    link: 'https://github.com/TopWater1932/Doc-Lures-Webscraper',
   },
   {
     id: 3,
-    name: 'Third Project',
+    name: 'User Friendly CRM (Under Development)',
     description:
-      'A short, compelling description of your third project. What makes it worth showcasing? What problem does it solve for real users?',
-    tags: ['Python', 'Machine Learning', 'Data Science'],
-    datePosted: 'June 2025',
-    imagePlaceholderGradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+      'TBC',
+    tags: ['React', 'TypeScript','Node.js', 'PostgresQL', 'RESTful API'],
+    datePosted: 'March 2025',
+    imagePlaceholderGradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
     link: '#',
   },
 ]

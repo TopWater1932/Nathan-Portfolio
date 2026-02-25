@@ -13,11 +13,19 @@ function ProjectCard({ project }: ProjectCardProps) {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div
-        className="project-card__image"
-        style={{ background: project.imagePlaceholderGradient }}
-        aria-hidden="true"
-      />
+      {project.image ? (
+        <img
+          className="project-card__image"
+          src={project.image}
+          alt={project.name}
+        />
+      ) : (
+        <div
+          className="project-card__image"
+          style={{ background: project.imagePlaceholderGradient ?? 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}
+          aria-hidden="true"
+        />
+      )}
       <div className="project-card__content">
         <div className="project-card__header">
           <h3 className="project-card__name">{project.name}</h3>
