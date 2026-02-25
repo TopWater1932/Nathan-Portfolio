@@ -69,7 +69,19 @@ No test runner is configured.
     - Date Posted
 - Each project item should behave as a link to take you to the project for viewing.
 
-### 1.3 Blog Content
+### 1.3 Blog Page Content
 - This page should start with an image, overlain with the title Blog and a 1 sentence description.
-- The rest of this page is to be kept blank for now.
+- Underneath this section, the different blog posts should be tiled in rows of max 3 depending on the width of the window.
+- Each tile should include:
+    - A placeholder image or pattern.
+    - A title
+    - The first 30 words of the content, followed by a '...'
+    - A posted date
+- When the tile is clicked, it should take you to a seperate page as described below in item 1.4.
 
+
+### 1.4 Blog Article Page
+- This page should maintain the header and side margins.
+- The body should start with the title, along with the post date and author.
+- Then it should have a section for the blog content, initially with placeholder text.
+- I should be implemented as a reusable React component that is rendered with different content.
