@@ -12,9 +12,9 @@ function App() {
         <Header />
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/blog" element={<BlogPage />} />
-            <Route path="/blog/:id" element={<BlogArticlePage />} />
+            <Route path="/Nathan-Portfolio" element={<LandingPage />} />
+            <Route path="/Nathan-Portfolio/blog" element={<BlogPage />} />
+            <Route path="/Nathan-Portfolio/blog/:id" element={<BlogArticlePage />} />
           </Routes>
         </main>
       </div>
