@@ -7,14 +7,14 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Nathan-Portfolio">
       <div className="app">
         <Header />
         <main className="main-content">
           <Routes>
-            <Route path="/Nathan-Portfolio" element={<LandingPage />} />
-            <Route path="/Nathan-Portfolio/blog" element={<BlogPage />} />
-            <Route path="/Nathan-Portfolio/blog/:id" element={<BlogArticlePage />} />
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:id" element={<BlogArticlePage />} />
           </Routes>
         </main>
       </div>
