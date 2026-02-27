@@ -18,7 +18,7 @@ export const projects: Project[] = [
     description:
       'Catan Online is a multiplayer full stack web application for playing the timeless classic board game Settlers of Catan by Klaus Teuber.',
     tags: ['React', 'TypeScript', 'Python FastAPI', 'WebSocket'],
-    datePosted: 'January 2026',
+    datePosted: 'October 2025',
     image: catanOnlineImg,
     link: 'https://catan-frontend-deploy.onrender.com/',
   },
@@ -31,15 +31,5 @@ export const projects: Project[] = [
     datePosted: 'June 2025',
     imagePlaceholderGradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
     link: 'https://github.com/TopWater1932/Doc-Lures-Webscraper',
-  },
-  {
-    id: 3,
-    name: 'User Friendly CRM (Under Development)',
-    description:
-      'TBC',
-    tags: ['React', 'TypeScript','Node.js', 'PostgresQL', 'RESTful API'],
-    datePosted: 'March 2025',
-    imagePlaceholderGradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-    link: '#',
   },
 ]

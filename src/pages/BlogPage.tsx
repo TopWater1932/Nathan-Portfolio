@@ -9,7 +9,7 @@ function BlogPage() {
         <div className="blog-hero__content">
           <h1 className="blog-hero__title">Blog</h1>
           <p className="blog-hero__subtitle">
-            Thoughts, learnings, and articles on software development.
+            Thoughts and learnings on my software development journey.
           </p>
         </div>
       </section>
